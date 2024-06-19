@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.85">
+    <title>Tirupati Plywoods</title>
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #005f85;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #007cad;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #005f85;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px 20px;
+        }
+
+        section h2 {
+            font-size: 28px;
+            color: #005f85;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #005f85;
+            color: #fff;
+            text-align: center;
+            /* padding: 20px 0; */
+            width: 100%;
+            margin-top: auto;
+        }
+
+        @media screen and (max-width: 600px) {
+            * {
+                text-align: center;
+            }
+
+            body {
+                flex-direction: column;
+            }
+
+            footer {
+                width: 100%;
+                flex-direction: column;
+            }
+
+            nav a {
+                display: block;
+                padding: 10px;
+            }
+
+            section,
+            header,
+            footer {
+                padding: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Tirupati Plywoods</h1>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Tirupati Plywoods is a leading provider of high-quality plywood products and hardware. We specialize in
+            offering the best quality materials for your construction and renovation needs.</p>
+    </section>
+    <section id="location">
+        <h2>Our Location</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110217.22041557514!2d77.88215506249999!3d30.31432100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092a23add756a5%3A0x23c56d024b19f8e8!2sTIRUPATI%20PLYWOODS!5e0!3m2!1sen!2sin!4v1718469583040!5m2!1sen!2sin"
+            width="600" height="450" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries and orders, please contact us:</p>
+        <p>Contact Person: <b>Mr. Dheeraj Verma</b></p>
+        <p>Email: <b>dheeer2007@yahoo.com</b></p>
+        <p>Phone: <b>+91 9897911171</b></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Tirupati Plywoods. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
